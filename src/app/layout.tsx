@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   title: "Milpa — Custom Software for Small Businesses",
   description:
     "We build hyper-personalized software for small and medium businesses. Modular, affordable, and designed around how you actually work.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     title: "Milpa — Custom Software for Small Businesses",
     description:

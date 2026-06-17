@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "cp public/favicon.ico out/favicon.ico && cp public/apple-touch-icon.png out/apple-touch-icon.png",
     "start": "next start",
     "lint": "eslint"
   },

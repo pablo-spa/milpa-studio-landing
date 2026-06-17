@@ -19,6 +19,8 @@ export const metadata: Metadata = {
     "We build hyper-personalized software for small and medium businesses. Modular, affordable, and designed around how you actually work.",
   icons: {
     icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-192x192.png", sizes: "192x192", type: "image/png" },
       { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
       { url: "/icon.svg", type: "image/svg+xml" },
     ],

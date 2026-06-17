@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "cp public/favicon.ico out/favicon.ico && cp public/apple-touch-icon.png out/apple-touch-icon.png",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postbuild": "cp public/favicon.ico out/favicon.ico && cp public/apple-touch-icon.png out/apple-touch-icon.png && cp public/favicon-32x32.png out/favicon-32x32.png && cp public/favicon-192x192.png out/favicon-192x192.png"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",

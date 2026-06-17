@@ -8,7 +8,6 @@ import {
   FolderKanban,
   BookOpen,
   Calendar,
-  Lock,
   LayoutDashboard,
   Zap,
   GitBranch,
@@ -33,8 +32,8 @@ const translations = {
     },
     hero: {
       badge: "Estudio de software · Oaxaca, México",
-      h1: "Las herramientas de una empresa grande. Para negocios que no tienen su presupuesto.",
-      sub: "Construimos sistemas de gestión completamente personalizados — tu flujo de trabajo, tu identidad visual, tu código, tus datos. Todo tuyo, para siempre.",
+      h1: "Tu primera web o el sistema que reemplaza todo el papel. Software hecho exactamente para tu negocio.",
+      sub: "Construimos lo que tu negocio necesita — desde tu presencia en internet hasta la gestión completa de tu operación. Sin funciones de sobra, sin contratos atados. Tu código y tus datos, para siempre.",
       primary: "Empecemos a hablar",
       secondary: "Ver nuestro trabajo",
       proof: "3 clientes · 2 países · en producción",
@@ -104,18 +103,18 @@ const translations = {
     what: {
       label: "Lo que construimos",
       h2: "Módulos listos. Flujos a medida.",
-      sub: "Tenemos una biblioteca de módulos ya construidos para las necesidades más comunes de un negocio. Los seleccionamos, configuramos a tu flujo y desplegamos como tu propio sistema.",
+      sub: "Trabajamos con negocios en cualquier etapa — desde los que necesitan su primera presencia digital hasta los que quieren reemplazar hojas de cálculo y procesos manuales con un sistema propio.",
       modules: [
+        { label: "Sitio web empresarial", desc: "Presencia digital moderna, responsiva, a tu imagen" },
+        { label: "Landing page", desc: "Página de ventas o presentación de tu negocio" },
         { label: "Proyectos", desc: "Gestión tipo Basecamp — tareas, hitos, equipo" },
         { label: "Tareas & Kanban", desc: "Tablero de trabajo del equipo" },
         { label: "Wiki interna", desc: "Base de conocimiento del equipo" },
         { label: "Calendario", desc: "Agenda compartida del equipo" },
         { label: "CRM & Contactos", desc: "Clientes, proveedores, historial" },
-        { label: "Password Manager", desc: "Credenciales del equipo, encriptadas" },
-        { label: "Dashboard", desc: "Métricas y widgets configurables" },
         { label: "Flujos personalizados", desc: "Lo específico de tu operación" },
       ],
-      custom: "Inventario · Producción · Nómina · Cotizaciones · Reportes — construimos lo que tu operación necesita.",
+      custom: "Inventario · Producción · Nómina · Cotizaciones · Reportes · lo que tu operación necesite.",
     },
     ownership: {
       label: "Sin lock-in",
@@ -157,7 +156,7 @@ const translations = {
             "Nómina semanal",
             "Cotizaciones",
             "Control de asistencia",
-            "Dashboard financiero",
+            "Reportes financieros",
           ],
           stat: "En producción · uso diario",
           live: true,
@@ -172,7 +171,7 @@ const translations = {
             "Seguimiento de producción",
             "Inventario",
             "Movimientos de producto",
-            "Contabilidad básica",
+            "Registro de ventas y movimientos",
             "Nómina",
           ],
           stat: "En producción",
@@ -198,7 +197,7 @@ const translations = {
       label: "Nosotros",
       h2: "Un equipo pequeño, a propósito.",
       p1: "Tenemos raíces en Oaxaca, México, y trabajamos desde distintas partes del mundo. Antes de construir software para otros, lo construimos para negocios reales — una carpintería, un invernadero, una empresa de servicios.",
-      p2: "Aprendimos que cada negocio tiene una forma única de operar, y que el software debería reflejar eso — no al revés. Ser pequeños nos permite ser rápidos, directos y comprometidos con cada proyecto.",
+      p2: "Aprendimos que cada negocio tiene una forma única de operar, y que el software debería reflejar eso — no al revés. Por eso trabajamos desde la primera página web de un negocio hasta sistemas que reemplazan años de hojas de cálculo. Nos adaptamos a lo que necesitas, no al contrario.",
       p3: "Trabajas directamente con quien construye tu software. Sin intermediarios, sin tickets de soporte, sin esperas de semanas para un cambio pequeño.",
     },
     pricing: {
@@ -306,8 +305,8 @@ const translations = {
     },
     hero: {
       badge: "Software studio · Oaxaca, Mexico",
-      h1: "The tools big companies have. Built for businesses that don't have their budget.",
-      sub: "We build fully custom management systems — your workflows, your branding, your code, your data. All yours, forever.",
+      h1: "Your first website or the system that replaces all the paperwork. Software built exactly for your business.",
+      sub: "We build what your business actually needs — from your first website to a full management system. No bloat, no contracts. Your code and your data, forever.",
       primary: "Start a conversation",
       secondary: "See our work",
       proof: "3 clients · 2 countries · in production",
@@ -377,18 +376,18 @@ const translations = {
     what: {
       label: "What we build",
       h2: "Ready modules. Custom flows.",
-      sub: "We have a library of modules already built for the most common business needs. We select them, configure them for your workflows, and deploy them as your own system.",
+      sub: "We work with businesses at any stage — from those who need their first digital presence to those who want to replace spreadsheets and manual processes with their own system.",
       modules: [
+        { label: "Business website", desc: "Modern, responsive, branded to your image" },
+        { label: "Landing page", desc: "Sales or presentation page for your business" },
         { label: "Projects", desc: "Basecamp-style — tasks, milestones, team" },
         { label: "Tasks & Kanban", desc: "Team work board" },
         { label: "Internal Wiki", desc: "Team knowledge base" },
         { label: "Calendar", desc: "Shared team schedule" },
         { label: "CRM & Contacts", desc: "Clients, vendors, history" },
-        { label: "Password Manager", desc: "Encrypted team credentials" },
-        { label: "Dashboard", desc: "Configurable metrics & widgets" },
         { label: "Custom Workflows", desc: "What's specific to your operation" },
       ],
-      custom: "Inventory · Production · Payroll · Quotes · Reports — we build what your operation needs.",
+      custom: "Inventory · Production · Payroll · Quotes · Reports · whatever your operation needs.",
     },
     ownership: {
       label: "Zero lock-in",
@@ -430,7 +429,7 @@ const translations = {
             "Weekly payroll",
             "Quotations",
             "Attendance tracking",
-            "Financial dashboard",
+            "Financial reports",
           ],
           stat: "In production · used daily",
           live: true,
@@ -445,7 +444,7 @@ const translations = {
             "Production tracking",
             "Inventory",
             "Product movements",
-            "Basic accounting",
+            "Sales & movement records",
             "Payroll",
           ],
           stat: "In production",
@@ -471,7 +470,7 @@ const translations = {
       label: "About",
       h2: "A small team, on purpose.",
       p1: "We have roots in Oaxaca, Mexico, and work from different parts of the world. Before building software for others, we built it for real businesses — a carpentry workshop, a greenhouse, a service company.",
-      p2: "We learned that every business has a unique way of operating, and that software should reflect that — not the other way around. Being small lets us be fast, direct, and fully committed to each project.",
+      p2: "We learned that every business has a unique way of operating, and that software should reflect that — not the other way around. That's why we work from a business's first website to systems that replace years of spreadsheets. We adapt to what you need, not the other way around.",
       p3: "You work directly with the people building your software. No middlemen, no support tickets, no weeks of waiting for a small change.",
     },
     pricing: {
@@ -575,7 +574,7 @@ const translations = {
 type Lang = keyof typeof translations;
 type T = (typeof translations)[Lang];
 
-const MODULE_ICONS = [FolderKanban, Workflow, BookOpen, Calendar, Users, Lock, LayoutDashboard, Zap];
+const MODULE_ICONS = [Code2, LayoutDashboard, FolderKanban, Workflow, BookOpen, Calendar, Users, Zap];
 const OWNERSHIP_ICONS = { code: Code2, database: Database, server: Server };
 const WHY_ICONS = [Workflow, Shield, Zap];
 
